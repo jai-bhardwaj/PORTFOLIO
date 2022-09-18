@@ -1,5 +1,5 @@
 const dynamicElement = document.getElementById("dynamic-element");
-console.log(dynamicElement);
+// console.log(dynamicElement);
 const phrases = ["Software Engineer...","Enthusiast...","Student..."];
 let phraseIndex = 0;
 let letterIndex = 0;
@@ -38,4 +38,4 @@ function clearText(){
 }
 
 
-// printText(phrases[phraseIndex]);
+printText(phrases[phraseIndex]);
