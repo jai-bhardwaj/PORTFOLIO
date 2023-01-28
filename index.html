@@ -1,74 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Potfolio</title>
-</head>
-<body>
-    <div class="container">
-        <div class="intro">
-            <img id="profileImage" src="src/Profile.png" alt="Profile picture">
-            <h1>Hi, I'm Sujal</h1>
-            <p>
-                I am <span id="dynamic-element" class="dynamic-element-color"></span>
-            </p>
-            <p class="social-links">
-                <a href="https://www.linkedin.com/in/sharmasujal/" target="_blank"> <img src="src/Linkedin_icon.svg.png" alt="linkedin"> </a>
-                <a href="https://github.com/sujal-sharma" target="_blank"> <img src="https://www.iconpacks.net/icons/3/free-github-logo-icon-6533.png" alt="github"> </a>
-            </p>
-        </div>
-        <div id="about-me">
-            <h2>About me</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Eligendi soluta aliquid provident possimus iure blanditiis sit non, veritatis culpa, maxime, sint voluptas velit ipsam aspernatur quia optio. Optio, illum. Voluptatem.
-            </p>
-        </div>
-        <div id="qualifications">
-            <h2>Qualifications</h2>
-            <ol>
-                <li>B.Tech CSE</li>
-                <li>Google Cloud Certificate</li>
-            </ol>
-        </div>
-        <div id="hobbies">
-            <h2>Hobbies</h2>
-            <ul>
-                <li>Listening to music</li>
-                <li>Problem Solving</li>
-                <li>Computer Gaming</li>
-                <li>Sports</li>
-                <li>Travelling</li>
-            </ul>
-        </div>
-        <div id="technologies">
-            <h2>Technologies</h2>
-            <table>
-                <tr>
-                    <th>Frontend</th>
-                    <th>Backend</th>
-                    <th>Database</th>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td>NodeJS</td>
-                    <td>MySQL</td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td>Django</td>
-                    <td>MongoDB</td>
-                </tr>
-                <tr>
-                    <td>JS</td>
-                    <td>ASP.net</td>
-                    <td>Postgres</td>
-                </tr>
-            </table>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-image" />
+      <h1>I'm Jai.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image" />
+      <img class="mountain-img" src="images/mountain.png" alt="mountain-image" />
     </div>
-    <script src="main.js"></script>
-</body>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/man.png" alt="" />
+        <h2>Hello.</h2>
+        <p class="intro">
+          Motivated computer science student with a strong foundation in web
+          development, proficient in JavaScript, HTML, CSS, and ReactJS.
+          Passionate about machine learning and experienced in Python and C++.
+          Always eager to learn and grow.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skills1-img" src="images/web-programming.png" alt="" />
+          <h3>Web Development</h3>
+          <p>
+            Strong proficiency in JavaScript, HTML, and CSS for building dynamic
+            and responsive web applications.
+          </p>
+          <p>
+            Proficient in ReactJS, a JavaScript library for building user
+            interfaces, and experience in creating reusable components.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="skills2-img" src="images/programming.png" alt="" />
+          <h3>Programming &amp; Problem Solving</h3>
+          <p>
+            Experience in C++ and Python, and a solid understanding of
+            object-oriented programming and data structures.
+          </p>
+          <p>
+            Strong problem-solving and analytical skills, with the ability to
+            break down complex problems and find creative solutions.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="skills1-img" src="images/machine-learning.gif" alt="" />
+          <h3>Machine Learning</h3>
+          <p>
+            Familiarity with Machine Learning concepts and techniques, and experience in implementing
+            simple algorithms such as linear regression and k-means clustering.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p class="contact-message">
+          Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales,
+          tellus donec dui, ornare erat.
+        </p>
+        <a class="btn" href="mailto:0987sujals@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/sharmasujal/"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://twitter.com/SujaISharma">Twitter</a>
+      <a class="footer-link" href="https://github.com/jai-bhardwaj">Github</a>
+      <p class="copyright">© Jai Bhardwaj.</p>
+    </div>
+  </body>
 </html>
